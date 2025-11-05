@@ -27,24 +27,23 @@ random_numbers3 <- readRDS(
   here::here("output/random_numbers3.rds")
 )
 ```
-
 # Distribution 1
 
 ```{r, random-numbers1-histogram}
-#| fig.cap = "First set of random numbers"
-hist(random_numbers1)
+#| fig.cap = "Histogram of Distribution 1"
+hist(random_numbers1, col = "skyblue")
 ```
 
 # Distribution 2
 
 ```{r, random-numbers2-histogram}
-#| fig.cap = "Second set of random numbers"
-hist(random_numbers2)
+#| fig.cap = "Histogram of Distribution 2"
+hist(random_numbers2, col = "pink")
 ```
 
 # Distribution 3
 
 ```{r, random-numbers3-histogram}
-#| fig.cap = "Third set of random numbers"
-hist(random_numbers3)
+#| fig.cap = "Histogram of Distribution 3"
+hist(random_numbers3, col = "purple")
 ```
